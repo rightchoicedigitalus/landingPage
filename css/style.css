@@ -99,7 +99,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--dark);
+    color: var(--light);
 }
 
 .navbar.sticky-top {
