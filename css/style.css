@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #009CFF;
+    --primary: #8800ff;
     --secondary: #777777;
     --light: #F8F8F8;
     --dark: #252525;
@@ -12,6 +12,8 @@
     right: 30px;
     bottom: 30px;
     z-index: 99;
+    background: var(--primary);
+    color: var(--light);
 }
 
 
@@ -65,6 +67,12 @@
     font-weight: normal;
 }
 
+/* Call to action */
+#callToAction .navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
@@ -75,6 +83,8 @@
     vertical-align: middle;
     margin-left: 8px;
 }
+
+
 
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
