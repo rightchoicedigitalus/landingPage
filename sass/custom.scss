@@ -1,0 +1,21 @@
+/* Call To Action */
+#callToAction {
+    li:not(:last-child) {
+        margin-right: 15px;
+    }
+    li {
+        svg {
+            margin-right: 5px;
+        }
+    }
+}
+
+// Navbar
+.navbar {
+    .navbar-brand {
+        img {
+            width: 100px;
+            height: auto;
+        }
+    }
+}
